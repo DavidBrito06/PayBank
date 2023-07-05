@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Paybank</title>
+</head>
+<body>
+    <!-- Começo do header -->
+    <header class="header">
+
+        <i class="fa-solid fa-arrow-left"></i>
+
+        <h1>Paybank</h1>
+
+        <i class="fa-solid fa-bars"></i>
+
+    </header>
+    <!-- Fim do heaeder -->
+    <form action="" method="get" name="dados">
+        <h2>Acesse sua conta</h2>
+        
+        <label for="cpf">Cpf</label>
+        <input type="text" id="cpf" name="cpf" placeholder="Digite seu cpf" required >    
+        
+        <label for="senha">Senha</label>
+        <input type="password" id="password" minlength="20" placeholder="Possui 8 caracteres ou mais" required>
+    
+        <div class="botao">
+        <input type="submit" value="Continuar">
+        </div>
+    
+        <div class="senha">
+            <a href="">Esqueci a senha?</a>
+        </div>
+
+        <div class="não-cliente">
+            <p>Você ainda não tem uma conta?</p>
+            <a href="">cadastre-se!</a>
+        </div>
+
+    </form>
+</body>
